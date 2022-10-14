@@ -11,5 +11,4 @@
 
 ## (2) Run Test Script
 1. open this project
-2. run with command 
-> testscript\challenge.robot
+2. run with command ```robot testscript\challenge.robot```
