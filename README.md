@@ -1,4 +1,4 @@
-# RobotFramwork-Demo
+# RobotFramework-Demo
 
 ## (1) Setup
 
