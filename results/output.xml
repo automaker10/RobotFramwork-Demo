@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.8 on win32)" generated="20221014 22:51:51.737" rpa="false" schemaversion="3">
+<suite id="s1" name="Challenge" source="D:\work\Challenge">
+<suite id="s1-s1" name="Test" source="D:\work\Challenge\test.robot">
+<test id="s1-s1-t1" name="Google Index" line="13">
+<kw name="Go to Google">
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221014 22:51:51.959" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" starttime="20221014 22:51:51.959" endtime="20221014 22:51:54.025"/>
+</kw>
+<status status="PASS" starttime="20221014 22:51:51.958" endtime="20221014 22:51:54.025"/>
+</kw>
+<status status="PASS" starttime="20221014 22:51:51.957" endtime="20221014 22:51:54.026"/>
+</test>
+<status status="PASS" starttime="20221014 22:51:51.769" endtime="20221014 22:51:54.029"/>
+</suite>
+<status status="PASS" starttime="20221014 22:51:51.743" endtime="20221014 22:51:54.043"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Challenge">Challenge</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Test">Challenge.Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
