@@ -12,7 +12,7 @@ ${tasks_delete}    //span[@class='mdl-button__ripple-container']
 ${complete_tap}    //a[@href='#completed']
 
 *** Keywords ***
-Go to Google
+Go to Web Todo
     Open Browser    ${url}    ${browser}
     Maximize Browser Window
     Sleep     2
@@ -45,8 +45,8 @@ TODO Complete Tap
     # Sleep     2
 
 *** Test Cases ***
-Google Index
-    Go to Google
+Todo Index
+    Go to Web Todo
     Add Item
     TODO Tasks Archive
     TODO Tasks Delete
